@@ -1,10 +1,12 @@
 import React from 'react';
 import NavBar from "./components/NavBar/index.jsx";
+import './index.css'
 
 
 function App() {
     return (
-        <div>
+        <div className="App">
+
             <NavBar>
 
             </NavBar>
