@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from "./components/NavBar/index.jsx";
+import NavBar from "./components/NavBar/NavBar.jsx";
 import './index.css'
 import {Route, Routes} from "react-router-dom";
 import Home from "./pages/Home/index.jsx";
