@@ -1,10 +1,14 @@
 .FoodItem {
     width: 100%;
     margin: auto;
+    padding: 16px;
     border-radius: 15px;
     box-shadow: 0 0 10px #00000015;
     transition: 0.3s;
     animation: fadeIn 1s;
+}
+.FoodItem:hover {
+    transform: scale(1.05);
 }
 
 .FoodItemImage img {
