@@ -46,3 +46,14 @@
     margin: 20px 0;
     background-color: grey;
 }
+
+@media (max-width: 770px){
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        gap:35px
+    }
+    .footer .copy-right{
+        text-align: center;
+    }
+}

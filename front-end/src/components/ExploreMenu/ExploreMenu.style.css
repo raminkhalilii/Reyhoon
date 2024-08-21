@@ -64,3 +64,10 @@
 .explore-menu-list img:hover{
     transform: scale(1.05);
 }
+
+@media (max-width: 1050px) {
+    .explore-menu-text {
+        width: 100%;
+        font-size: 14px;
+    }
+}

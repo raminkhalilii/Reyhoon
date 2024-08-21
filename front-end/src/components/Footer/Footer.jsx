@@ -7,7 +7,7 @@ import linkedin from "../../assets/frontend_assets/linkedin_icon.png"
 
 function Footer() {
     return (
-        <div className="footer">
+        <div className="footer" id="Footer">
             <div className="footer-content">
                 <div className="footer-left">
                     <img src={logo} alt=""/>

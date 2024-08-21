@@ -42,3 +42,21 @@
     border-radius: 50px;
 
 }
+
+@media (max-width: 1050px) {
+    .Header-contents{
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 770px) {
+    .Header-contents{
+        max-width: 65%;
+    }
+    .Header-contents p{
+        display: none;
+    }
+    .Header-contents button {
+        padding: 2vw 4vw;
+    }
+}
