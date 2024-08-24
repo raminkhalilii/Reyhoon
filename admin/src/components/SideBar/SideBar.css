@@ -1,0 +1,39 @@
+.SideBar{
+    min-height: 100vh;
+    width: 18%;
+    border: 1.5px solid #a9a9a9;
+    border-top: none;
+
+}
+
+.SideBar-options{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 20%;
+    gap: 20px;
+}
+
+.SideBar-option{
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    border: 1px solid #a9a9a9;
+    border-radius: 3px 0 0 3px;
+    border-right: none;
+    gap: 12px;
+    cursor: pointer;
+    
+}
+
+.active{
+    background-color: rgba(34, 139, 34, 0.1);
+    border-color: forestgreen;
+}
+
+@media (max-width: 900px) {
+    .SideBar-option p{
+        display: none;
+    }
+
+}
